@@ -1,40 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sickle Cell Awareness
 
-## Getting Started
+A static awareness website dedicated to educating, humanizing, and advocating for people living with Sickle Cell Disease — inspired by personal lived experience.
 
-First, run the development server:
+🌍 Live site: https://sickecellawareness.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About the Project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project was born from a deeply personal place.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Growing up, I witnessed my brother and sister battle Sickle Cell Disease. I saw the hospital visits, the pain crises, the emotional toll on family, and ultimately, I lost them both in their early 20s.
 
-## Learn More
+This website exists to honor their memory, reduce misinformation, and help others better understand Sickle Cell Disease — not just as a medical condition, but as a lived experience.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Purpose & Goals
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Raise awareness about Sickle Cell Disease
+- Educate the public using clear, accessible language
+- Reduce stigma and common misconceptions
+- Encourage early testing and informed conversations
+- Humanize the condition through storytelling
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# sicke-cell
-# sicke-cell
-# sicke-cell
-# sicke-cell
+- Light-themed, mobile-first design
+- Material Design–inspired UI with a soft red accent
+- Clear educational sections (symptoms, myths, care)
+- Personal storytelling and advocacy-driven content
+- Fully static and fast-loading
+- Deployed publicly for easy access and sharing
+
+---
+
+## Tech Stack
+
+- **Framework:** React / Next.js
+- **Styling:** Tailwind CSS
+- **Design Principles:** Material Design (light theme)
+- **Deployment:** Vercel
+
+---
+
+## Project Structure (High-Level)
+
+```text
+├── components/       # Reusable UI components
+├── pages/            # Application pages
+├── public/           # Static assets
+├── styles/           # Global styles
+└── README.md
+
