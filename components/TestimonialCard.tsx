@@ -3,7 +3,7 @@ import { Testimonial } from "@/types"
 
 export default function TestimonialCard({ name, job, message }: Testimonial) {
   return (
-    <div className="rounded-2xl border border-on-background/10 p-3 lg:max-w-2/3">
+    <div className="rounded-2xl border border-on-background/10 p-3 lg:min-w-4/12 lg:overflow-x-scroll">
       <div className="flex justify-start items-center">
         <div>
           <p>{name}</p>
@@ -11,7 +11,7 @@ export default function TestimonialCard({ name, job, message }: Testimonial) {
         </div>
         <Quote className="ml-auto" stroke="red" fill="red" />
       </div>
-      <p>{message}</p>
+      <p className="py-2">{message}</p>
     </div>
   )
 }

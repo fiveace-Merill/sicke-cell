@@ -29,6 +29,14 @@ body {
 
 */
 
+.hero-bg {
+  background-image: url("/sickle-cell.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: padding-box;
+  aspect-ratio: inherit;
+}
+
 @theme {
 
   --color-background: #ffffff;
@@ -45,4 +53,17 @@ body {
   --color-on-secondary: #04363d;
   --color-secondary-container: #ccf1f6;
   --color-on-secondary-container: #147a85;
+}
+
+.nav-link-button:hover {
+  background-color: var(--color-primary-container);
+  color: var(--color-on-primary-container);
+}
+
+.nav-link:hover {
+  color: var(--color-secondary);
+}
+
+.footer-link:hover {
+  color: var(--color-on-background-container);
 }
