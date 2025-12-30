@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Menu } from 'lucide-react'
+import AboutMobileMenuWrapper from './AboutMobileMenuWrapper'
 
 export default function Navbar() {
   return (
@@ -22,9 +22,7 @@ export default function Navbar() {
         <li className="nav-link">Story</li>
         <Link href="/about/center"><li><span className="nav-link-buton px-4 py-2 rounded-full bg-primary text-white">Find Care</span></li></Link>
       </ul>
-      <div className='lg:hidden'>
-        <Menu />
-      </div>
+      <AboutMobileMenuWrapper />
     </nav >
   )
 }

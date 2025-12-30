@@ -8,7 +8,7 @@ import InfoCard from '@/components/InfoCard';
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-3">
+    <main className="relative flex flex-col gap-3">
       <Navbar />
       <section className="relative flex flex-col gap-6 pt-3 lg:flex-row lg:px-8 lg:py-16">
         <div className="px-3 lg:basis-7/12 lg:flex lg:flex-col lg:justify-start lg:gap-3 lg:self-stretch lg:pr-12">

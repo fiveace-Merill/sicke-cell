@@ -1,6 +1,7 @@
+import MenuWrapper from './MenuWrapper'
 import Link from 'next/link'
-import { Menu } from 'lucide-react'
 import Image from 'next/image'
+
 export default function Navbar() {
   return (
     <nav className="flex items-center px-3 py-4 justify-between border-b border-on-background/10 lg:px-8">
@@ -20,9 +21,7 @@ export default function Navbar() {
         <li className="nav-link">Resources</li>
         <li><span className="nav-link-buton px-4 py-2 rounded-full bg-primary text-white">Donate</span></li>
       </ul>
-      <div className='lg:hidden'>
-        <Menu />
-      </div>
+      <MenuWrapper />
     </nav >
   )
 } 
