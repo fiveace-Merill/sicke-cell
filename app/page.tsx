@@ -12,13 +12,13 @@ export default function Home() {
       <Navbar />
       <section className="relative flex flex-col gap-6 pt-3 lg:flex-row lg:px-8 lg:py-16">
         <div className="px-3 lg:basis-7/12 lg:flex lg:flex-col lg:justify-start lg:gap-3 lg:self-stretch lg:pr-12">
-          <h1 className="bg-primary-container text-on-primary-container text-center text-sm px-3 py-2 rounded-md w-5/12">HEALTH INITIATIVE</h1>
+          <h1 className="bg-primary-container text-on-primary-container text-center text-xs px-3 py-2 rounded-lg w-5/12 md:text-sm lg:text-lg">HEALTH INITIATIVE</h1>
           <p className={`${heading} py-2 text-center text-3xl lg:text-6xl lg:text-left lg:tracking-tight`}>Sickle Cell Awareness:<span className={`${span}`} > A<br /> Personal Journey.</span><br />A shared responsibility.</p>
           <p className="mt-3 text-justify lg:text-left lg:text-xl">Bridging the gap between medical science and human stories. Join the movement for better care, understanding, and hope.</p>
           <div className="mt-6 flex gap-3 w-full justify-center lg:gap-8">
-            <button className={`${button} font-semibold bg-primary text-white flex gap-2 justify-center items-center text-xs hover:bg-primary-container hover:text-on-primary-container lg:px-6 lg:text-lg lg:rounded-full`}><Microscope size={16} /> Get Tested</button>
-            <span className={`${button} font-semibold px-4 text-xs flex justify-center items-center border border-black rounded-full hover:text-on-background/80 hover:border hover:border-on-background/80 lg:px-6 lg:text-lg`}>Learn More</span>
-            <span className={`${button} font-semibold text-on-background flex gap-2 justify-center items-center text-xs hover:bg-secondary hover:text-on-secondary lg:px-6 lg:text-lg lg:rounded-full`}><Share2 size={16} />Share Awareness</span>
+            <span className={`${button} font-semibold px-4 text-sm flex justify-center items-center border border-black rounded-full hover:text-on-background/80 hover:border hover:border-on-background/80 lg:order-2 lg:px-6 lg:text-lg`}>Learn More</span>
+            <button className={`${button} font-semibold py-2 bg-primary text-white flex gap-2 justify-center items-center text-sm hover:bg-primary-container hover:text-on-primary-container lg:px-6 lg:text-lg lg:order-1 lg:rounded-full`}><Microscope size={18} /> Get Tested</button>
+            <span className={`${button} font-semibold text-on-background flex gap-2 justify-center items-center text-xs hover:bg-secondary hover:text-on-secondary lg:px-6 lg:text-lg lg:rounded-full`}><Share2 size={18} /><span className="hidden md:inline-block">Share Awareness</span></span>
           </div>
         </div>
         <div className="flex items-center justify-center lg:py-8 lg:basis-5/12">
@@ -31,10 +31,10 @@ export default function Home() {
               className="w-full rounded-lg-2xl lg:rounded-2xl"
               alt="hero-image"
             />
-            <div className="z-10 absolute left-3 bottom-5 flex items-center gap-3 bg-background text-on-background-container px-3 py-2 rounded-full">
+            <div className="z-10 absolute left-3 bottom-5 flex items-center gap-3 bg-background text-on-background-container px-6 py-2 rounded-full">
               <Heart fill="red" stroke="red" />
               <div className="flex flex-col">
-                <h3 className="text-sm">Community Support</h3>
+                <p className="text-xs">Community Support</p>
                 <p className="text-xs"><span className='text-secondary'>10k</span> Families</p>
               </div>
             </div>

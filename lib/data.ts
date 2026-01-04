@@ -1,4 +1,4 @@
-import { Testimonial, Myth, Symptom } from "@/types"
+import { Testimonial, Myth } from "@/types"
 import { BatteryLow, Cross, Microscope } from "lucide-react"
 
 export const testimonials: Testimonial[] = [
@@ -22,18 +22,18 @@ export const testimonials: Testimonial[] = [
 export const myths: Myth[] = [
   {
     myth: "Sickle Cell is Contagious",
-    description: "some description on this",
+    description: "Sickle cell is a genetic disease passed down from parents, either from a single parent with sickle cell or both parents with sickle cell trait",
     value: "item-1"
 
   },
   {
     myth: "People with sickle cell do not live long",
-    description: "some description on this",
+    description: "With good care, people with sickle cell can live long full filling lives.",
     value: "item-2"
   },
   {
     myth: "There is no cure",
-    description: "some description on this",
+    description: "Sickle cell is managed with over the counter drug to controll pain during crises.",
     value: "item-3"
 
   }
