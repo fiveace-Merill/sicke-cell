@@ -54,9 +54,9 @@ body {
 }
 
 .morph {
-  background-color: transparent;
-  backdrop-filter: blur(30px);
-  background-image: linear-gradient(148deg, rgba(0, 0, 0, 0.3), rgba(0, 41, 107, 0.2));
+  background-color: #f3eedb;
+  backdrop-filter: blur(100px);
+  background-image: linear-gradient(148deg, rgba(80, 15, 17, 0.5), rgba(0, 41, 107, 0.8));
 }
 
 @media (min-width: 1024px) {

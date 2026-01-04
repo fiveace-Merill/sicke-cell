@@ -24,7 +24,7 @@ export default function About() {
         </section>
         <section className="px-3 py-8 bg-gray-50 lg:py-16">
           <div>
-            <h1 className="font-semibold text-xl text-center lg:text-4xl lg:py-4">What is Sickle Cell?</h1>
+            <h1 className="font-semibold text-2xl text-center lg:text-4xl lg:py-4">What is Sickle Cell?</h1>
             <p className="text-md py-2 text-pretty text-center lg:w-1/2 lg:mx-auto">Sickle Cell Disease(SCD) is a genetic blood disorder that affects the shape of red blood cells. Normal red blood cells are round and flexible, but in SD, some become rigid and shaped like a cresent moon, or sickle. </p>
           </div>
           <div className="flex flex-col gap-9 py-8 justify-center mx-auto items-center lg:flex-row lg:py-12 lg:gap-6 lg:w-4/6">
@@ -43,23 +43,23 @@ export default function About() {
               <p className="pt-2 px-3 text-center">Round and flexible. Moves easily through blood vessels to deliver oxygen.</p>
             </div>
           </div>
-          <div className="flex flex-col py-4 px-6 rounded-xl bg-primary text-background lg:flex-row lg:items-center lg:justify-center lg:gap-8 lg:rounded-3xl lg:p-8 lg:w-4/6 lg:mx-auto">
+          <div className="flex flex-col py-4 bg-primary text-background lg:flex-row lg:items-center lg:justify-center lg:gap-8 lg:rounded-3xl lg:p-8 lg:w-4/6 lg:mx-auto">
             <div className="py-3 text-center lg:px-8 lg:text-left">
-              <p className="text-xs font-semibold tracking-wide lg:py-3">PREVENTION AND PLANNING</p>
-              <p className="font-semibold text-xl text-center lg:text-4xl lg:text-left lg:font-extrabold">Genotype testing is essential.</p>
-              <p className="text-pretty py-4 lg:text-justify lg:py-2">Knowing your genotype (AA, AS,SS) is the first step in awareness and responsible family planning.</p>
+              <p className="text-sm font-semibold tracking-wide py-3">PREVENTION AND PLANNING</p>
+              <p className="lg:text-3xl text-left font-semibold lg:font-extrabold">Genotype testing is essential.</p>
+              <p className="text-pretty lg:text-justify lg:py-2">Knowing your genotype (AA, AS,SS) is the first step in awareness and responsible family planning.</p>
             </div>
             <div className="flex justify-center items-center lg:px-8 lg:w-1/2 lg:h-full">
               <button className="w-full bg-background text-primary text-sm rounded-full font-semibold px-3 py-2">Find a testing Center</button>
             </div>
           </div>
         </section>
-        <section className="px-3 py-8 lg:py-16">
-          <div className="flex flex-col py-3 lg:py-0 lg:gap-1">
+        <section className="px-3 lg:py-16">
+          <div className="flex flex-col lg:gap-1">
             <p className="text-sm text-primary text-center font-semibold lg:text-lg">What to look for</p>
             <p className="text-xl text-center font-semibold tracking-wide lg:text-4xl">Common Symptoms</p>
           </div>
-          <div className="grid grid-cols-1 grid-rows-3 gap-8 md:grid-cols-2 md:grid-rows-2 lg:px-8 lg:py-12 lg:gap-8 lg:grid-cols-3 lg:grid-rows-1">
+          <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:px-8 lg:py-12 lg:gap-8 lg:grid-cols-3 lg:grid-rows-1">
             <SymptomCard />
           </div>
           <div className="py-8 lg:px-2 lg:w-4/6 lg:mx-auto">
