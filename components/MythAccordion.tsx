@@ -13,7 +13,7 @@ export default function MythAccordion() {
         {
           myths.map((myth, idx) => (
             <AccordionItem value={myth.value} key={idx} defaultValue={myth.value} className="abt-list-item flex flex-col justify-start border border-on-background/50 rounded-2xl text-sm px-3">
-              <AccordionTrigger><p><span className="text-primary font-bold text-[0.75rem] px-3">MYTH</span>{myth.myth}</p></AccordionTrigger>
+              <AccordionTrigger><p className="text-xs md:text-sm lg:text-md"><span className="text-primary font-bold text-[0.75rem] px-3">MYTH</span>{myth.myth}</p></AccordionTrigger>
               <AccordionContent className="px-3 text-balance">
                 <p>{myth.description}</p>
               </AccordionContent>

@@ -43,23 +43,23 @@ export default function About() {
               <p className="pt-2 px-3 text-center">Round and flexible. Moves easily through blood vessels to deliver oxygen.</p>
             </div>
           </div>
-          <div className="flex flex-col py-4 bg-primary text-background lg:flex-row lg:items-center lg:justify-center lg:gap-8 lg:rounded-3xl lg:p-8 lg:w-4/6 lg:mx-auto">
+          <div className="flex flex-col rounded-3xl py-4 bg-primary text-background lg:flex-row lg:items-center lg:justify-center lg:gap-8 lg:rounded-3xl lg:p-8 lg:w-4/6 lg:mx-auto">
             <div className="py-3 text-center lg:px-8 lg:text-left">
-              <p className="text-sm font-semibold tracking-wide py-3">PREVENTION AND PLANNING</p>
-              <p className="lg:text-3xl text-left font-semibold lg:font-extrabold">Genotype testing is essential.</p>
-              <p className="text-pretty lg:text-justify lg:py-2">Knowing your genotype (AA, AS,SS) is the first step in awareness and responsible family planning.</p>
+              <p className="text-xs font-semibold tracking-wide lg:py-3">PREVENTION AND PLANNING</p>
+              <p className="text-center font-semibold lg:text-3xl lg:text-left lg:font-extrabold">Genotype testing is essential.</p>
+              <p className="text-pretty py-2 lg:text-justify">Knowing your genotype (AA, AS,SS) is the first step in awareness and responsible family planning.</p>
             </div>
-            <div className="flex justify-center items-center lg:px-8 lg:w-1/2 lg:h-full">
+            <div className="flex justify-center px-4 items-center lg:px-8 lg:w-1/2 lg:h-full">
               <button className="w-full bg-background text-primary text-sm rounded-full font-semibold px-3 py-2">Find a testing Center</button>
             </div>
           </div>
         </section>
-        <section className="px-3 lg:py-16">
+        <section className="px-3 py-8 lg:py-16">
           <div className="flex flex-col lg:gap-1">
             <p className="text-sm text-primary text-center font-semibold lg:text-lg">What to look for</p>
             <p className="text-xl text-center font-semibold tracking-wide lg:text-4xl">Common Symptoms</p>
           </div>
-          <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:px-8 lg:py-12 lg:gap-8 lg:grid-cols-3 lg:grid-rows-1">
+          <div className="grid gap-4 py-4 grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:px-8 lg:py-12 lg:gap-8 lg:grid-cols-3 lg:grid-rows-1">
             <SymptomCard />
           </div>
           <div className="py-8 lg:px-2 lg:w-4/6 lg:mx-auto">
