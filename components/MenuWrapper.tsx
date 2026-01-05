@@ -12,9 +12,11 @@ export default function MenuWrapper() {
         className={`${isOpen ? "hidden" : "static"} cursor-pointer self-end`}
         onClick={() => setIsOpen(true)}
       />
-      {
-        isOpen && <MobileMenu closeSideBar={setIsOpen} />
-      }
+      <div className="sticky top-0 inset-x-0">
+        {
+          isOpen && <MobileMenu closeSideBar={setIsOpen} />
+        }
+      </div>
     </div>
   )
 }
