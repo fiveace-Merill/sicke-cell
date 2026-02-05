@@ -1,3 +1,4 @@
+import { primary_btn } from '@/styles/styles'
 import Link from 'next/link'
 import Image from 'next/image'
 import AboutMobileMenuWrapper from './AboutMobileMenuWrapper'
@@ -20,7 +21,7 @@ export default function Navbar() {
         <Link href="/about"><li className="nav-lin">About</li></Link>
         <Link href="/about/testing"><li className="nav-link">Testing and Care</li></Link>
         <li className="nav-link">Story</li>
-        <Link href="/about/center"><li><span className="nav-link-buton px-4 py-2 rounded-full bg-primary text-white">Find Care</span></li></Link>
+        <Link href="/about/center" className={`${primary_btn}`}><li><span className="nav-link-buton px-4 py-2 rounded-full bg-primary text-white">Find Care</span></li></Link>
       </ul>
       <AboutMobileMenuWrapper />
     </nav >

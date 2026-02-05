@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import TestimonialCard from '@/components/TestimonialCard';
 import { testimonials } from '@/lib/data';
-import { span, heading, button } from "@/styles/styles";
+import { span, heading, button, sec_btn } from "@/styles/styles";
 import { Share2, Microscope, Heart, Megaphone } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import InfoCard from '@/components/InfoCard';
@@ -67,8 +67,8 @@ export default function Home() {
           <p className="font-bold lg:text-4xl">Help Us Spread the Word</p>
           <p className="text-center lg:w-2/4 lg:py-3">Your voice matters. Whether it is sharing a post, donating, or just learing the facts, every action counts towards a better future.</p>
           <div className="flex justify-cener items-center gap-4">
-            <button className="rounded-full bg-background text-primary text-sm px-4 py-2 font-semibold">Share Awareness</button>
-            <button className="rounded-full px-4 py-2 text-sm border border-background font-semibold">Donate Now</button>
+            <button className={`${sec_btn} rounded-full bg-background text-primary text-sm px-4 py-2 font-semibold`}>Share Awareness</button>
+            <button className="rounded-full px-4 py-2 text-sm border border-background font-semibold hover:bg-background hover:text-primary">Donate Now</button>
           </div>
         </div>
       </section>

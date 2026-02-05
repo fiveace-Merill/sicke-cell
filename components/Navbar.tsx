@@ -1,4 +1,5 @@
 import MenuWrapper from './MenuWrapper'
+import { primary_btn } from '@/styles/styles'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -19,7 +20,7 @@ export default function Navbar() {
         <Link href="/about"><li className="nav-link">About</li></Link>
         <li className="nav-link">Stories</li>
         <li className="nav-link">Resources</li>
-        <li><span className="nav-link-buton px-4 py-2 rounded-full bg-primary text-white">Donate</span></li>
+        <li><span className={`${primary_btn} nav-link-buton px-4 py-2 rounded-full bg-primary text-white`}>Donate</span></li>
       </ul>
       <MenuWrapper />
     </nav >

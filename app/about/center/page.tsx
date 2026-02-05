@@ -1,8 +1,10 @@
 
+import MapCard from "@/features/about/components/MapCard"
+
 export default function Centers() {
   return (
-    <div>
-      <p>At this point I want to intergrate some live maps.</p>
-    </div>
+    <main className="h-full">
+      <MapCard />
+    </main>
   )
 }

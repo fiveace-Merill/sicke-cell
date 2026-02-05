@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { primary_btn } from '@/styles/styles'
 import { X } from 'lucide-react'
 
 export default function MobileMenu({ closeSideBar = () => { } }: { closeSideBar?: (state: boolean) => void }) {
@@ -11,7 +12,7 @@ export default function MobileMenu({ closeSideBar = () => { } }: { closeSideBar?
         <Link href="/"><li className="text-xl font-bold tracking-light hover:text-primary">Resources</li></Link>
       </ul>
       <div className="flex items-stretch justify-center w-full">
-        <Link href="/about/center" className="w-5/6 mx-auto"><span className="flex-initial self-center bg-primary text-background font-bold px-8 py-3 rounded-full w-full">Find Care</span></Link>
+        <Link href="/about/center" className="w-5/6 mx-auto"><span className={`${primary_btn} flex-initial self-center bg-primary text-background font-bold px-8 py-3 rounded-full w-full`}>Find Care</span></Link>
       </div>
     </div>
   )
