@@ -1,10 +1,12 @@
+import MapWrapper from "@/features/about/components/MapWrapper"
 
 export default function MapCard() {
   return (
     <div className="flex w-full h-full mx-auto gap-8">
       <div className="basis-2/3 flex flex-col gap-6">
         <input type="search" placeholder="search" className="border rounded-xl px-3 py-1 w-2/6" />
-        <div className="bg-gray-50 rounded-3xl basis-11/12 flex-inintial p-2">
+        <div className="bg-gray-50 rounded-md basis-11/12 flex-inintial p-2">
+          <MapWrapper />
         </div>
       </div>
       <div>
