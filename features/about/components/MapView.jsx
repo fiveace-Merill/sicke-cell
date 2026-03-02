@@ -1,6 +1,5 @@
 // components/MapView.tsx
 "use client";
-
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'; // Import Leaflet CSS
 import { Icon } from 'leaflet'; // Import Icon class
