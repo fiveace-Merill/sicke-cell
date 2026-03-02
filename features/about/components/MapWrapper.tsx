@@ -1,4 +1,9 @@
-import MapView from '@/features/about/components/MapView'
+"use client"
+import dynamic from "next/dynamic"
+const MapView = dynamic(
+  () => import('@/features/about/components/MapView'),
+  { ssr: false }
+)
 
 export default function MapWrapper() {
   const defaultPosition = [-1.2833, 36.8167];
